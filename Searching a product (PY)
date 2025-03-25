@@ -8,4 +8,4 @@ function searchAnimes(myFavAnimes, searchAnimes) {
         console.log('no such anime in the bookshelf !');
     }
 }
-searchFruits(myFavAnimes, "One Piece");
+searchAnimes(myFavAnimes, "One Piece");
