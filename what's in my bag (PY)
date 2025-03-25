@@ -1,0 +1,15 @@
+class makeupBag:
+    def __init__(self, lipstick, powder):
+        self.lipstick = lipstick
+        self.powder = powder
+    def alxnln(self):
+        print("Display lipstick:" + self.lipstick)
+        print(f"Display powder: {self.powder}")
+
+mine = makeupBag("matte", "white")
+my_friend = makeupBag("gloss", "brown")
+
+print("In my makeup bag:")
+mine.alxnln()
+print("In my friend's makeup bag:")
+my_friend.alxnln()
