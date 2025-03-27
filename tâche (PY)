@@ -1,5 +1,3 @@
-# ici, j'ai appris à utiliser continue aulieu de elif
-
 task = ["completed","not completed","not completed"]
 index = 0
 
