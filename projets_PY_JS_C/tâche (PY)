@@ -1,0 +1,10 @@
+task = ["completed","not completed","not completed"]
+index = 0
+
+while index < len(task):
+    if task == "not completed":
+        print(f"the task number {index + 1} is not completed")
+        index += 1
+        continue
+    print(f"the task {index + 1} is completed")
+    index += 1
