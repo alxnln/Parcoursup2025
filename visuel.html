@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+ <head>
+    <title>Bloc-note</title>
+    <link rel="stylesheet" href="derriere.css"/>
+ </head>
+ <body>
+    <a href="/alexandra/mes_projets.html">retour</a>
+    <h1>Bloc-note</h1>
+    <div class="grid-container2"> 
+    <section class="page-1">
+        <div class="item-1">
+            <p>évènement n°1:</p>
+            <a id="cross1" onclick="applyCross1()"><input type="checkbox" class="checkbox1"></a> <input id="valid-1" type="text" placeholder="commentez...">
+            <button onclick="click1()">valider</button>
+        </div>
+        <div class="item-2">
+            <p>évènement n°2:</p>
+            <a id="cross2" onclick="applyCross2()"><input type="checkbox"></a> <input id="valid-2" type="text" placeholder="commentez...">
+            <button onclick="click2()">valider</button>
+        </div>
+        <div class="item-3">
+            <p>évènement n°3:</p>
+            <a id="cross3" onclick="applyCross3()"><input type="checkbox" id="line"></a> <input id="valid-3" type="text" placeholder="commentez...">
+            <br>
+            <button onclick="click3()">valider</button>
+        </div>
+        <div class="item-4">
+            <p>évènement n°4:</p>
+            <a id="cross4" onclick="applyCross4()"><input type="checkbox"></a> <input id="valid-4" type="text" placeholder="commentez...">
+            <button onclick="click4()">valider</button>
+        </div>
+    </section>
+    <section class="page-1">
+        <div class="carnet">
+            <p class="commentaire-1">page vide.</p>
+            <br>
+            <p class="commentaire-2"></p>
+            <br>
+            <p class="commentaire-3"></p>
+            <br>
+            <p class="commentaire-4"></p>
+        </div>
+    </section>
+    </div>
+    <br>
+    <div class="container-flex">
+        <button class="typet" onclick="applyBold()">bold</button>
+        <button class="typet" onclick="applyItalic()">italic</button>
+        <button class="typet" onclick="applyBlue()">Blue pen</button>
+        <button class="typet" onclick="applyUnderline()">underline</button>
+    </div>
+    <script src="cachee.js"></script>
+ </body>
