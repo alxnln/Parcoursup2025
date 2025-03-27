@@ -1,0 +1,11 @@
+const myFavAnimes = ["Tokyo Ghoul","Shingeki No Kyojin","Kaichou wa maid sama"];
+
+function searchAnimes(myFavAnimes, searchAnimes) {
+    const foundAnimes = myFavAnimes.find(myFavAnime => myFavAnime === searchAnimes);
+    if (foundAnimes) {
+        console.log(searchAnimes + ' is in the bookshelf !');
+    } else {
+        console.log('no such anime in the bookshelf !');
+    }
+}
+searchAnimes(myFavAnimes, "One Piece");
