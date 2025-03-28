@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="codedr.css"/>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="info"><a href="accueil.html">accueil</a></div>
+        <div class="info"><a href="mes_projets.html">mes projets</a></div>
+        <div class="info"><a href="competences.html">compétences</a></div>
+        <div class="info"><a href="profession.html">profession</a></div>
+    </div>
+    <br>
+    <div class="grid-container">
+        <div class="info1 header">
+            <h2>ACCUEIL</h2>
+            <p>Voici le premier portfolio que j'ai codé.
+            </p>
+        </div>
+        <div class="info1 main" style="text-align: left; padding: 30px;">
+            <h4>Pour commencer,</h4>
+            <p>j'ai touché pour la première fois au codage au lycée, avec Python. 
+                Depuis un an, j'ai repris cette activité avec plus de sérieux.
+            </p>
+            <h4>Actuellement,</h4> 
+            <p>je m'entraine à coder avec
+                <a href=https://sololearn.com>Sololearn</a>, <a href=https://mimo.org>Mimo</a>, et des vidéos Youtube. 
+                Faire des études dans le milieu contribuerait grandement 
+                à mon apprentissage. 
+            </p>
+            <h4>Pourquoi devrait-on me prendre?</h4> 
+            <ol><li>J'aime coder et résoudre des problèmes (détails dans "mes projets").</li>
+                <li>Je suis motivé et autonome (détails dans "compétences").</li>
+                <li>J'en ai réellement besoin pour le job de mes rêves (détails dans "profession").</li>
+            </ol>
+            <details><summary>Ce site web regroupe 4 onglets.</summary>
+                <ul>
+                    <li>Dans <b>accueil</b>: Une brève introduction de mon profil</li>
+                    <li>Dans <b>mes projets</b>: des projets Python,
+                        JavaScript, C, HTML et CSS.</li>
+                    <li>Dans <b>compétences</b>: des certificats provenant de Sololearn et Mimo. </li>
+                    <li>Dans <b>profession</b>: Mon futur parcours professionel </li>
+                </ul>
+            </details>
+        </div>
+        <div class="info1 side-bar">Side-bar</div>
+        <div class="info1 footer">2025</div>
+    </div>
+    <jscript src="anim.js"></jscript>
+</body>
