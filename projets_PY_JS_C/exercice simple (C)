@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+typedef struct() {
+    char adressEtc[];
+} iDontUnderstandPointers;
+
 int main() {
     float height = 92.0;
     printf("%f", height);
