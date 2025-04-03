@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="codedr.css"/>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="info"><a href="accueil.html">accueil</a></div>
+        <div class="info"><a href="mes_notes.html">mes notes</a></div>
+        <div class="info"><a href="mes_projets.html">mes projets</a></div>
+        <div class="info"><a href="competences.html">compétences</a></div>
+        <div class="info"><a href="profession.html">profession</a></div>
+    </div>
+    <br>
+    <div class="grid-container">
+        <div class="info1 header">
+            <h2>Profession</h2>
+            <p>Parcours à venir </p>
+        </div>
+        <div class="info1 main"  style="text-align: left; padding: 30px;">
+            <h4>Projection vers le future</h4>
+            <ul><li>Dans <b>1 an</b>, j'aurai validé ma première année d'informatique.</li>
+            <li>Dans <b>3 ans</b>, j'aurais ma première alternance ou je continuerai en Master
+                ingiénerie informatique ou cybersécurité</li>
+            <li>Dans <b>5 ans</b>, j'obtiendrai mon premier CDI. 
+            </li>
+            <li>Dans <b>10-15 ans</b>, je serai admise dans une grande entreprise internationale (Google/Pinterest). 
+            </li> 
+            <li><b>Alternative</b> -> Je lancerai un StartUp ?</li></ul>
+        </div>
+        <div class="info1 side-bar">Side-bar</div>
+        <div class="info1 footer">2025</div>
+    </div>
+    <jscript src="anim.js"></jscript>
+</body>
